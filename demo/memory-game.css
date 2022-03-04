@@ -1,0 +1,66 @@
+/* you can add to or change this. */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#game {
+  border: 1px solid black;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#card {
+  border: 1px solid black;
+  width: 100px;
+  height: 160px;
+  margin: auto;
+  background-color: white;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tries {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.highscore {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#score{
+  margin: 0 10px;
+  padding-top: 21px;
+}
+
+#highscore{
+  margin: 0 10px;
+  padding-top: 21px;
+}
+
+#newGame {
+  margin-top: 20px;
+}
+
+/* 
+.winner {
+
+} */
+
